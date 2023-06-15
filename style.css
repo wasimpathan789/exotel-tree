@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<style>
     .container{
         width: 100%;
         height: 98vh;
@@ -243,86 +235,201 @@ z-index: 222;
         margin-top: -80px;
         margin-left: 105px;
     }
-</style>
-<body>
-    <div class="container">
+    @media screen and (max-width:580px) {
+        .mainCapsule{
+            width: 80%;
+            height: 70px;
+            border-radius: 40px;
+            border: 2px solid #389ada;
+            left: -20%;
+            background-color: white;
+            /* position: relative; */
+        }
+        .container{
+            width: 100%;
+            height: 98vh;
+            background: #f7faff;
+            /* display: flex;
+            justify-content: center;
+            align-items: center; */
+            
+        }
+        .line1{
+            height: 334px;
+            background-color: #cad0d8;
+            /* background-color: red; */
+            margin-top: -410px;
+            margin-left: 70px;
+        }
+        .line2{
+            height: 335px;
+            width: 2px;
+            background-color: #cad0d8;
+            position: absolute;
+            margin-top: -3px;
+        margin-left: 170px;
+        /* background-color: red; */
+        }
+        .freshworks{
+            margin-top: -200px;
+            margin-top: -380px;
 
-        <div class="lead">
-            <div class="dot leddot"></div>
-
-            <img src="../src/assets/LeadLogo.png" alt="">
-            <div class="ledline"></div>
-
-        </div>
-        <div class="freshworks">
-            <div class="dot freshdot"></div>
-
-            <img src="../src/assets/freshworks-vector-logo.png" alt="">
-            <div class="freshLine"></div>
-
-        </div>
-        <div class="clevertop">
-            <div class="dot cleverdot"></div>
-
-            <img src="../src/assets/clever.png" alt="">
-            <div class="cleverline"></div>
-
-        </div>
-        <!-- <div class="hubspot">
-            <img src="../src/assets/hubspot.png" alt="">
-            <div class="freshLine"></div>
-            <div class="dot"></div>
-
-        </div> -->
-        <div class="hubspot">
-            <img src="../src/assets/HubSpot_Logo.png" alt="">
-            <div class="hubline"></div>
-            <div class="dot hubdot"></div>
-
-        </div>
-        <div class="shopify">
-            <img src="../src/assets/Shopify-Logo.png" alt="">
-            <div class="shopyfiyline"></div>
-            <div class="dot shopifydot"></div>
-
-        </div>
-        <div class="zoho">
-            <img src="../src/assets/zoho.png" alt="">
-            <div class="zoholine"></div>
-            <div class="dot zohodot"></div>
-
-        </div>
-        <div class="web">
-            <div class="webline"></div>
-
-            <img src="../src/assets/web.png" alt="">
-            <div class="dot webdot"></div>
-
-        </div>
-        <div class="sales">
-            <div class="dot salesdot"></div>
-
-            <img src="../src/assets/Salesforce.com_logo.svg.png" alt="">
-            <div class="salesline"></div>
-
-        </div>
-        <div class="capusleContainer">
-            <div class="mainCapsule">
-                <img src="../src/assets/exotel-logo-vector.png" alt="">
-                <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-            <div class="line4"></div>
-
-            </div>
-
-        </div>
-        
+            margin-left: 170px;
+            position: absolute;
+            z-index: 33;
+            /* transform: rotate(180deg); */
     
-        
-
-
-    </div>
+        }
+        .freshdot{
+            margin-left: -142px;
+        }
+      
+        .cleverdot{
+            margin-left: -140px;
     
-</body>
-</html>
+        }
+        .clevertop{
+            margin-top: -560px;
+        }
+        .lead{
+            margin-left: 180px;
+            margin-top: -740px;
+        }
+        .cleverline{
+            width: 61px;
+            margin-left: -207px;
+
+        }
+        .freshLine{
+            width: 61px;
+            margin-left: -207px;
+
+        }
+
+        .lead{
+            margin-left: 169px;
+            position: absolute;
+        }
+        .ledline{
+            width: 60px;
+            margin-left: -205px;
+        }
+        .leddot{
+            margin-left: -140px;
+            margin-top: 0px;
+            /* background-color: red; */
+        }
+        .clevertop{
+            position: absolute;
+            margin-left: 171px;
+            /* margin-top: -300px; */
+            z-index: 22;
+        }
+        .shopify{
+            margin-top: -200px;
+            margin-left: 170px;
+        }
+        .shopifydot{
+            margin-top: 1px;
+            margin-left: -140px;
+        }
+        .shopyfiyline{
+            transform: rotate(180deg);
+            width: 66px;
+            margin-top: 1px;
+            margin-left: -200px;
+        }
+        .hubspot{
+            /* position: absolute; */
+            /* z-index: 99; */
+            margin-left: -180px;
+            margin-top: 200px ;
+    
+        }
+        .hubdot{
+            margin-top: 1px;
+            margin-left: 140px;
+        }
+        .hubline{
+            /* transform: rotate(180deg); */
+            width: 71px;
+            margin-top: 1px;
+            margin-left: 210px;
+            /* background-color: red; */
+
+        }
+        .zoho{
+            margin-left: -190px;
+            margin-top: 380px ;
+    
+        }
+        .zoholine{
+            width: 78px;
+            margin-left: 211px;
+    
+        }
+        .zohodot{
+            margin-left: 140px;
+        }
+        .web{
+            margin-top: 560px;
+            margin-left: -190px;
+
+        }
+        .webline{
+            width: 78px;
+            margin-left: 211px;
+
+        }
+        .sales{
+            margin-left: -190px;
+            margin-top: 740px ;
+        }
+        .salesdot{
+            margin-left: 140px;
+        }
+        .salesline{
+            width: 73px;
+            margin-left: 216px;
+
+        }
+        .line3{
+            display: none;
+        }
+        
+    }
+    @media screen and (max-width:370px) {
+        .lead,
+        .freshworks,
+        .shopify,
+        .clevertop{
+            margin-left: 120px;
+            /* margin-top: -740px; */
+        }
+         .ledline,
+         .freshLine,
+         .shopyfiyline,
+         .cleverline{
+            width: 36px;
+            margin-left: -180px;
+        }
+        .hubspot,
+        .zoho,
+        .web,
+        .sales{
+            margin-left: -130px;
+        }
+    .hubline,
+    .zoholine,
+    .webline,
+    .salesline{
+        width: 48px;
+        margin-left: 181px;
+    }
+    .salesline{
+        width: 43px;
+        margin-left: 188px;
+    }
+      
+        
+    }
