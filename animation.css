@@ -1,0 +1,45 @@
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-300px);
+
+    }
+    to {
+        transform: translateX(0px);
+
+    }
+}
+@keyframes slideInRight {
+    from {
+        transform: translateX(300px);
+
+    }
+    to {
+        transform: translateX(0px);
+
+    }
+}
+@keyframes rotate{
+    from{
+transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+
+    }
+}
+
+.lead,
+.freshworks,
+.web,
+.hubspot{
+    animation: slideInLeft 0.5s ease-in-out 1 normal ;
+}
+.clevertop,
+.shopify,
+.zoho,
+.sales{
+    animation: slideInRight 0.5s ease-in-out 1 normal both;
+}
+.capusleContainer{
+    animation: rotate 0.5s ease-in-out 1 normal both;
+}
